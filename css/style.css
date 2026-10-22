@@ -1,7 +1,7 @@
 body {
-    background-color: #a17878;
+    background-color: #ffce9a;
     color: #0a0909;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 h1 {
@@ -25,6 +25,10 @@ footer {
 
 a:hover {
     color: #ffffff
+}
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
 button {
@@ -54,6 +58,7 @@ main {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3;
 }
 
 th,
@@ -103,7 +108,13 @@ img {
     max-width: 100%;
 }
 
-@media (max-width: 600) {
+.projetos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
     header {
         flex-direction: column;
         gap: 8px;
@@ -121,3 +132,12 @@ img {
         font-size: 10px;
     }
 }
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
