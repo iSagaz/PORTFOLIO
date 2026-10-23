@@ -1,21 +1,21 @@
 body {
-    background-color: #ffce9a;
-    color: #0a0909;
+    background-color: #14213D;
+    color: #ffffff;
     font-family: 'Poppins', Arial, sans-serif;
 }
 
 h1 {
-    color: #870000;
+    color: #93C5FD;
     font-size: 40px;
 }
 
 h2 {
-    color: #000000;
+    color: #BFDBFE;
     font-size: 30px;
 }
 
 h3 {
-    color: #002886;
+    color:#64B5F6;
     font-size: 20px;
 }
 
@@ -27,12 +27,12 @@ a:hover {
     color: #ffffff
 }
 a {
-    color: #000000;
+    color: #93C5FD;
     text-decoration: none;
 }
 
 button {
-    background-color: #870000;
+    background-color: #2563EB;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ input[type="email"],
 input[type="tel"],
 textarea {
     padding: 5px;
-    border: 1px solid #000000;
+    border: 1px solid #F8FAFC;
     border-radius: 3px;
 }
 
@@ -54,6 +54,7 @@ main {
 }
 
 .card {
+    background-color: #223554;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -63,8 +64,9 @@ main {
 
 th,
 td {
-    border: 1px solid #000000;
+    border: 1px solid #45658A;
     padding: 8px 16px;
+    text-align: center;
 }
 
 table {
@@ -72,6 +74,7 @@ table {
 }
 
 header {
+    background-color: #1B2B49;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 20px;
@@ -86,7 +89,7 @@ nav {
 }
 
 nav a {
-    color: #f8ff9b;
+    color: #74fcf8;
     text-decoration: none;
 }
 
@@ -138,6 +141,8 @@ img {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
 }
 
+.Titulo{
 
+}
 
 
