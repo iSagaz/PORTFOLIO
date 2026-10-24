@@ -17,4 +17,4 @@ saudação = "Boa Noite"
 console.log(saudação)
 
 const titulo = document.querySelector(".Titulo");
-titulo.textContent = saudação + ", Eu sou o " + nome, "Seja Bem vindo ao meu Portfólio" ;
+titulo.textContent = saudação + ", Eu sou o " + nome ;
