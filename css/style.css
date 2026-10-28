@@ -117,6 +117,43 @@ img {
     gap: 20px;
 }
 
+.Titulo{
+
+}
+
+.escuro{
+    background-color:#080F1F;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.escuro .card {
+    background-color:#17263F;
+}
+
+.escuro h1{
+    color:#93C5FD ;
+}
+
+
+.escuro h2 {
+    color: #BFDBFE;
+}
+
+.escuro h3{
+    color: #67E8F9;
+}
+
+.certificados{
+    background-color: #14213D;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -141,8 +178,6 @@ img {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
 }
 
-.Titulo{
-
+.erro{
+    color: red;
 }
-
-

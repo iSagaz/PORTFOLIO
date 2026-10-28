@@ -6,15 +6,28 @@ console.log(hora);
 
 let saudação;
 if (hora < 12) {
-saudação = "Bom Dia";
+    saudação = "Bom Dia";
 
 } else if (hora < 18) {
-saudação = "Boa Tarde"
+    saudação = "Boa Tarde"
 
 } else {
-saudação = "Boa Noite"
+    saudação = "Boa Noite"
 }
 console.log(saudação)
 
 const titulo = document.querySelector(".Titulo");
-titulo.textContent = saudação + ", Eu sou o " + nome, "Seja Bem vindo ao meu Portfólio" ;
+if (titulo) {
+    titulo.textContent = saudação + ", Eu sou o " + nome;
+}
+
+const botao = document.getElementById("tema");
+botao.addEventListener("click", function () {
+    document.body.classList.toggle("escuro");
+    if (document.body.classList.contains("escuro")) {
+        botao.textContent = "Modo claro";
+    } else {
+        botao.textContent = "Modo Escuro";
+    }
+});
+
