@@ -17,7 +17,6 @@ if (hora < 12) {
 console.log(saudação)
 
 const titulo = document.querySelector(".Titulo");
-<<<<<<< HEAD
 if (titulo) {
     titulo.textContent = saudação + ", Eu sou o " + nome;
 }
@@ -32,6 +31,3 @@ botao.addEventListener("click", function () {
     }
 });
 
-=======
-titulo.textContent = saudação + ", Eu sou o " + nome ;
->>>>>>> 5cf9e601e5e9fba2c1d20ca5e9d39fca1485a96c
