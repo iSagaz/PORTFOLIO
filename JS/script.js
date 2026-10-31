@@ -5,14 +5,18 @@ let hora = new Date().getHours();
 console.log(hora);
 
 let saudação;
-if (hora < 12) {
+
+if (hora < 6) {
+    saudação = "Boa Madrugada";
+
+} else if (hora < 12) {
     saudação = "Bom Dia";
 
 } else if (hora < 18) {
-    saudação = "Boa Tarde"
+    saudação = "Boa Tarde";
 
 } else {
-    saudação = "Boa Noite"
+    saudação = "Boa Noite";
 }
 console.log(saudação)
 
