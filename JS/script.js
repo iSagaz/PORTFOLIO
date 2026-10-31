@@ -35,12 +35,15 @@ const gostos = ["Academia", "Luta", "Churrasco", "Tecnologia"];
 console.log(gostos.length);
 console.log(gostos[0]);
 const lista = document.querySelector("#gostos");
+if (lista) {
 
-for (const gosto of gostos) {
-    const item = document.createElement("li");
-    item.textContent = gosto;
-    lista.appendChild(item);
+
+
+    for (const gosto of gostos) {
+        const item = document.createElement("li");
+        item.textContent = gosto;
+        lista.appendChild(item);
+    }
 }
-
 
 
