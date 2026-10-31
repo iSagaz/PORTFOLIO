@@ -109,16 +109,10 @@ nav a {
 
 img {
     max-width: 100%;
-}
-
-.projetos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
+} 
 
 .Titulo{
-
+    
 }
 
 .escuro{
