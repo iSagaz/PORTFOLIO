@@ -6,6 +6,11 @@ const projetos = [
     },
 
     {
+        titulo: "Nexum",
+        descricao: "Plataforma gratuita que conecta estudantes e mentores voluntários, promovendo acesso à educação."
+    },
+
+    {
         titulo: "Nexora AI",
         descricao: "Aplicação web que utiliza inteligência artificial para gerar landing pages a partir de comandos do usuário. Desenvolvida com HTML, CSS, JavaScript, Node.js, Express e integração com a API da Groq."
     },
@@ -54,5 +59,6 @@ function criarCard(projeto) {
 for (const projeto of projetos) {
     criarCard(projeto);
 }
+
 
 
