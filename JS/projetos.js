@@ -1,4 +1,3 @@
-
 const listaProjetos = document.querySelector("#lista-projetos")
 const criarCard = (projeto) => {
     const card = document.createElement("section");
