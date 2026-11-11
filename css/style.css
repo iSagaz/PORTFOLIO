@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-    color:#64B5F6;
+    color: #64B5F6;
     font-size: 20px;
 }
 
@@ -26,15 +26,16 @@ footer {
 a:hover {
     color: #ffffff
 }
+
 a {
-    color: #93C5FD;
+    color:#A5B4FC;
     text-decoration: none;
 }
 
 button {
-    background-color: #2563EB;
+    background-color: #263e64;
     color: #ffffff;
-    border: none;
+    border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
 }
@@ -58,8 +59,8 @@ main {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    transition: 0.3;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.18);
+    transition: all 0.25s ease-in-out;
 }
 
 th,
@@ -89,7 +90,7 @@ nav {
 }
 
 nav a {
-    color: #74fcf8;
+    color:#A5B4FC;
     text-decoration: none;
 }
 
@@ -109,26 +110,23 @@ nav a {
 
 img {
     max-width: 100%;
-} 
-
-.Titulo{
-
 }
 
-.escuro{
-    background-color:#080F1F;
+.Titulo {}
+
+.escuro {
+    background-color: #080F1F;
     padding: 6px;
-    border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .escuro .card {
-    background-color:#17263F;
+    background-color: #17263F;
 }
 
-.escuro h1{
-    color:#93C5FD ;
+.escuro h1 {
+    color: #93C5FD;
 }
 
 
@@ -136,11 +134,11 @@ img {
     color: #BFDBFE;
 }
 
-.escuro h3{
+.escuro h3 {
     color: #67E8F9;
 }
 
-.certificados{
+.certificados {
     background-color: #14213D;
     padding: 6px;
     border: none;
@@ -167,13 +165,43 @@ img {
     }
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.30);
+
 }
 
-.erro{
+.erro {
     color: red;
 }
 
 
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.filtros button {
+    background-color: #263e64;
+    color: #ffffff;
+    border: 1px solid #365784;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.filtros button:hover {
+    background-color: #3478e5;
+    border-color: #5b9aff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.filtros button:active {
+    transform: scale(0.96);
+}
